@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+# /etc/rc.local: Local multi-user startup script.
+#
+mount tmpfs /tmp -t tmpfs -o size=8192m
